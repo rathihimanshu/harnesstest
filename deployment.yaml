@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mynginx
-          image: rathihimanshu/harness:latest
+          image: nginx
           ports:
             - containerPort: 80
